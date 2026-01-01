@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gada Electronics</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: lightgreen;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .logo1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            color: #dbe1e8;
+        }
+        .search {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            max-width: 750px;
+        }
+        .search input {
+            flex: 1;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+            text-align: center;
+        }
+        .search button {
+            padding: 8px 16px;
+            border: 1px solid #ccc;
+            border-left: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        .search button:hover {
+            background-color: #0056b3;
+        }
+        .header {
+            background-color: #111111;
+        }
+        .profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .inline-block-menu {
+            display: flex;
+            align-items: center;
+            background-color: #6f95ef;
+            padding: 10px;
+        }
+        .all-menu {
+            color: #333;
+            font-weight: bold;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .inline-block-menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            flex: 1;
+            text-align: center;
+        }
+.inline-block-menu ul li {
+display: inline-block;
+margin: 0 15px;
+}
+.inline-block-menu ul li a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+}
+ </style>
+</head>
+<body>    
+    <header class = "header">
+        <div class="logo">
+            <div class="logo1">Gada</div>
+            <div class="logo2">Electronics</div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+        <div class="profile"><img src = "https://th.bing.com/th/id/OIP.JcJfjHGG5QxL4VTVgIq5zwHaHa?w=152&h=150&c=6&o=7&dpr=1.3&pid=1.7&rm=3" alt="Profile Picture"> </div>
+    </header>    
+    <nav class="inline-block-menu">
+        <div class="all-menu">≡ ALL</div>
+        <ul>
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">Phones</a></li>
+            <li><a href="#">Tablets</a></li>
+            <li><a href="#">Home Appliances</a></li>
+            <li><a href="#">Wearables</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
